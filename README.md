@@ -21,6 +21,11 @@ docker-compose up -d
 docker-compose logs -f
 ```
 
+コンテナを立ち上げると、自動でjupyter labが立ち上がります。port番号などは各自の環境に合わせてセットしてください。
+コンテナが正常に立ち上がっていれば、以下のURLでjupyter labにアクセスできます。
+
+[http://localhost:8101](http://localhost:8101)
+
 ## 参考
 
 - [github: sammy-suyama/BayesBook](https://github.com/sammy-suyama/BayesBook)
